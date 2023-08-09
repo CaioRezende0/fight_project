@@ -1,0 +1,44 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(121, 20, 20);
+    font-size: 50px;
+}
+
+.fightarea{
+    display: flex;
+    gap: 20px;
+}
+
+#char,
+#monster {
+    flex: 1;
+}
+
+.lifebar {
+    height: 15px;
+    border: 1px solid #999;
+    border-radius: 7.5px;
+}
+
+.lifebar .bar {
+    height: inherit;
+    background-color: rgb(121, 20, 20);
+    border-radius: 6px;
+}
+
+.name {
+    color: #FFF;
+}
+
+.log {
+    border: 1px solid #999;
+    height: 200px;
+    overflow-y: scroll;
+    color: #FFF;
+}
